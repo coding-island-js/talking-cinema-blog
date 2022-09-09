@@ -3,7 +3,6 @@ module.exports = {
   base: '/',
   dest: 'public',
   description: 'Talking Cinema Movie Reviews',
-  logo: '',
   theme: require.resolve('../../'),
   themeConfig: {
   authors: [
