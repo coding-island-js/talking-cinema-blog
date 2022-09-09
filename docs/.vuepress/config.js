@@ -1,9 +1,9 @@
 module.exports = {
-  title: 'Mediumish1212',
+  title: 'Talking Cinema Movie Reviews',
   base: '/',
   dest: 'public',
-  description: 'Mediumish theme with VuePress and Forestry',
-  logo: './assets/img/logo.png',
+  description: 'Talking Cinema Movie Reviews',
+  logo: '',
   theme: require.resolve('../../'),
   themeConfig: {
   authors: [
@@ -23,74 +23,14 @@ module.exports = {
     footer: {
       contact: [
         {
-          type: 'codepen',
-          link: '#',
-        },
-        {
-          type: 'facebook',
-          link: '#',
-        },
-        {
-          type: 'github',
-          link: 'https://github.com/wowthemesnet/mediumish-vuepress-blog-theme',
-        },
-        {
-          type: 'gitlab',
-          link: '#',
-        },
-        {
-          type: 'instagram',
-          link: '#',
-        },
-        {
-          type: 'linkedin',
-          link: '#',
-        },
-        {
-          type: 'mail',
-          link: '#',
-        },
-        {
-          type: 'messenger',
-          link: '#',
-        },
-        {
-          type: 'phone',
-          link: '#',
-        },
-        {
           type: 'twitter',
-          link: 'https://twitter.com/wowthemesnet',
+          link: 'https://twitter.com/talkingcinema99',
         },
         {
           type: 'web',
           link: '#',
         }
       ],
-      copyright: [
-        {
-          text: 'Licensed MIT.',
-          link: 'https://bootstrapstarter.com/license/',
-        },
-        {
-          text: 'Made with Mediumish - free Vuepress theme',
-          link: 'https://bootstrapstarter.com/bootstrap-templates/vuepress-theme-mediumish/',
-        },
-      ],
-    },
-
-    sitemap: {
-      hostname: 'https://github.com/wowthemesnet/vuepress-theme-mediumish/'
-    },
-    comment: {
-      service: 'disqus',
-      shortname: 'demowebsite',
-    },
-    newsletter: {
-      endpoint: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&id=8c3d2d214b'
-    },
-    feed: {
-      canonical_base: 'https://github.com/wowthemesnet/vuepress-theme-mediumish/',
     },
     smoothScroll: true
   },
